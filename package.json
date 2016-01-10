@@ -12,5 +12,8 @@
     "salesforce"
   ],
   "author": "Jason Tarre",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jsforce": "^1.5.0"
+  }
 }
