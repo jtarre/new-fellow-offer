@@ -1,0 +1,16 @@
+{
+  "name": "fellow-offer",
+  "version": "1.0.0",
+  "description": "after Fellow signs offer, takes care of onboarding steps such as adding to Streak pipeline",
+  "main": "fellow_offer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vfa",
+    "docusign",
+    "salesforce"
+  ],
+  "author": "Jason Tarre",
+  "license": "MIT"
+}

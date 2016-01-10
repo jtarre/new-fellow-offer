@@ -1,0 +1,6 @@
+runtime "node"
+stack "node-0.10"
+exec "fellow_offer.js"
+file "package.json"
+build "npm install"
+remote
