@@ -149,4 +149,4 @@ conn.login(worker.config.USER_EMAIL, worker.config.PASSWORD, function(err, userI
 
 console.log("worker config: ", worker.config);
 console.log("worker params: ", worker.params);
-console.log("worker id: ", worker.task_id);s
+console.log("worker id: ", worker.task_id);
