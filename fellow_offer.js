@@ -97,7 +97,7 @@ conn.login(worker.config.USER_EMAIL, worker.config.PASSWORD, function(err, userI
 
 			conn.sobject('Contact').update({
 				Id: fellowId,
-				VFA_Association: "Fellow",
+				VFA_Association__c: "Fellow",
 				Years__c: "2016"
 			}, function(err, ret) {
 				var updateBoxData = function updateBoxData(boxKey, data) {
