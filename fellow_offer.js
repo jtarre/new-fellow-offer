@@ -89,8 +89,8 @@ conn.login(worker.config.USER_EMAIL, worker.config.PASSWORD, function(err, userI
 				phoneData.value = fellow.Phone;
 			}
 
-			if(fellow.Graduation_Year__c) {
-				gradYear.value = fellow.Graduation_Year__c;
+			if(fellow.Graduation_Date__c) {
+				gradYear.value = fellow.Graduation_Date__c;
 			}
 
 			salesforceProfile.value = "https://na14.salesforce.com/" + fellowId;
